@@ -63,17 +63,17 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [VET-CLINIC] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[VET-CLINIC]** is a relational database built using POSTGRES, to store information about animals. Information can be queried from the database using SQL Commands
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> This project does not have a client or server part. It only has a database
 
 <details>
   <summary>Client</summary>
@@ -102,9 +102,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Insert to the database]**
+- **[query data from the database]**
+- **[Modify information from the database]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +114,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+- [Live Demo Link Not Available](<replace-with-your-deployment-URL>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,15 +210,11 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Newtayo](https://github.com/Newtayo)
+- Twitter: [@Omortayoh](https://twitter.com/Omortayoh)
+- LinkedIn: [Akande Abdulwasiu](https://linkedin.com/in/AkandeAbdulwasiu)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,7 +236,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Newtayo/Vet-clinic/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -260,7 +256,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank microverse for providing this wonderful platform for learning
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -270,13 +266,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[Question_1]** How can I view this database
 
-  - [Answer_1]
+  - [Answer_1] You need to Install Postgress on your computer
 
-- **[Question_2]**
+- **[Question_2]**Where can I download postgress software
 
-  - [Answer_2]
+  - [Answer_2] Head to https://www.postgresql.org official website and follow the prompt to get the appropriate version for your machine
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
