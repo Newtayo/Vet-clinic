@@ -8,3 +8,6 @@ escape_attempts INT NOT NULL,
 neutered bool NOT NULL,
  weight_kg float NOT NULL,
  PRIMARY KEY(id));
+
+ALTER TABLE animals
+ADD species varchar(150);
