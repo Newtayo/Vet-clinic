@@ -128,7 +128,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -144,7 +143,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - **Add table for visits to vets**
 - **Add table for vets**
@@ -165,7 +163,6 @@ Feel free to check the [issues page](https://github.com/Newtayo/Vet-clinic/issue
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project...
 
