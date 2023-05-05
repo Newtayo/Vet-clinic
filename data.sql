@@ -58,19 +58,3 @@ WHERE name = 'Angemon' OR name = 'Boarmon';
 
 COMMIT;
 
-
-SELECT name FROM animals JOIN owners ON animals.owner_id = owners.id 
-WHERE full_name = 'Melody Pond';
-
-SELECT name FROM animals JOIN species ON animals.species_id = species.id 
-WHERE species.id = 1;
-
-SELECT * FROM owners LEFT JOIN animals ON animals.owner_id = owners.id;
-
-SELECT species.name, COUNT(species_id) FROM animals JOIN species ON animals.species_id = species.id GROUP BY species.name;
-
-SELECT animals.name FROM animals JOIN owners ON animals.owner_id = owners.id WHERE owners.full_name ='Jennifer Orwell';
-
-SELECT * FROM animals JOIN owners ON animals.owner_id = owners.id WHERE animals.escape_attempts = 0 AND owners.full_name = 'Dean Winchester';
-
-SELECT owners.full_name, COUNT(name)  FROM animals JOIN owners ON animals.owner_id = owners.id GROUP BY owners.full_name ORDER BY COUNT (name) DESC LIMIT 1;

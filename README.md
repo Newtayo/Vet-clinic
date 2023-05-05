@@ -198,6 +198,6 @@ I would like to thank microverse for providing this wonderful platform for learn
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Newtayo/Vet-clinic/blob/setup-vetclinic/license./LICENSE) licensed.
+This project is [MIT](https://github.com/Newtayo/Vet-clinic/blob/development/license) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
