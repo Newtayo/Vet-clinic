@@ -1,5 +1,11 @@
 <a name="readme-top">VET-CLINIC</a>
+## Getting Started
 
+This repository is contains SQL Commands used in the creation of Vet-clinic database as well as all the tables inside the database.
+
+- All codes used in the creation of the database as well as the tables are stored at [schema.sql](./schema.sql) file.
+- All data and the commands used to populat [data.sql](./data.sql) file.
+- The vet_clinic database can be queried for various information. Sample codes on how to query the various tables in the database are located in the [queries.sql](./queries.sql) file.
 
 # 📗 Table of Contents
 
@@ -25,32 +31,17 @@
 
 
 
-# 📖 [VET-CLINIC] <a name="about-project"></a>
+# 📖 VET-CLINIC <a name="#about-project"></a>
 
 
 
-**[VET-CLINIC]** is a relational database built using POSTGRES, to store information about animals. Information can be queried from the database using SQL Commands
+**VET-CLINIC** is a relational database built using POSTGRES, to store information about animals. Information can be queried from the database using SQL Commands
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="#built-with"> PostgreSQL</a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack" href="#tech-stack"></a>
 
 > This project does not have a client or server part. It only has a database
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
 <details>
 <summary>Database</summary>
   <ul>
@@ -64,9 +55,9 @@
 
 
 
-- **[Insert to the database]**
-- **[query data from the database]**
-- **[Modify information from the database]**
+- **Insert to the database**
+- **query data from the database**
+- **Modify information in the database**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> Link to deployed project.
 
 - [Live Demo Link Not Available](<replace-with-your-deployment-URL>)
 
@@ -92,34 +83,41 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- Ensure you have a github account and you are signed in.
+
+- Ensure you have PostgreSQL installed on your machine.
+
 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+- On git bash Run **git clone https://github.com/Newtayo/Vet-clinic.git**
+
+- Cd to the folder you cloned the repository to.
 
 
 ### Install
 
-Install this project with:
+No installation is required
 
 
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command in the schema.sql, data.sql and query.sql files
 
 
 ### Run tests
 
-To run tests, run the following command:
+Test is not available at this moment
 
 
 
 ### Deployment
 
-You can deploy this project using:
+No deployment is available yet
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -144,8 +142,8 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- **Add table for visits to vets**
-- **Add table for vets**
+- **Perform normalization on the database**
+- **Create the database schema diagram**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
