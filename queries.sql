@@ -90,8 +90,7 @@ SELECT owners.full_name, COUNT(name)  FROM animals JOIN owners ON animals.owner_
 SELECT animals.name, vets.name, visits.date_of_visit FROM animals JOIN visits ON animals.id = visits.animal_id JOIN vets ON visits.vet_id = vets.id WHERE vets.name ='William Tatcher' ORDER BY visits.date_of_visit DESC  LIMIT 1;
 
 -- The  number of different animals seen by Stephanie Mendez 
-SELECT COUNT(*) FROM animals JOIN visits ON animals.id = visits.animal_id JOIN
-vets ON visits.vet_id = vets.id WHERE vets.name LIKE 'Stephanie Mendez';
+SELECT animals.name, vets.name, visits.date_of_visit FROM animals JOIN visits ON animals.id = visits.animal_id JOIN vets ON visits.vet_id = vets.id WHERE vets.name LIKE 'Stephanie Mendez';
 
 -- List of all vets and their specialties, including vets with no specialties
 SELECT vets.name, species.name FROM vets FULL JOIN specializations ON vets.id = specializations.vet_id FULL JOIN
